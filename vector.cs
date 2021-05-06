@@ -66,9 +66,9 @@ namespace ConsoleApp
             double yy2 = Convert.ToDouble(Console.ReadKey());
             Console.WriteLine("Введите значение z2 вектора b: ");
             double zz2 = Convert.ToDouble(Console.ReadKey());
-            
+            // Ввод данных
             Vector y1 = new Vector(xx2 - xx1, yy1 - yy2, zz1 - zz2);
-            
+
 
         }
     }
