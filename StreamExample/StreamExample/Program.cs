@@ -11,8 +11,10 @@ namespace StreamExample
             Example example = new Example(); // Инициализация экземпляра класса Example (см. файл в проекте Example.cs)
             /*
             * Документация FileStream - https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0
+            * Инициализируем FileStream и создаем и указываем имя файл.
+            * Можно этого не делать а сразу в StreamWriter("имя-файла.txt")
             */
-            FileStream file = new FileStream("test.txt", FileMode.Create); // Инициализируем FileStream и создаем и указываем имя файла
+            FileStream file = new FileStream("test.txt", FileMode.Create); // а
             /*
              * Документация BinaryWriter - https://docs.microsoft.com/en-us/dotnet/api/system.io.binarywriter?view=net-5.0
              * Подобное действие производим над бинарными файлами используя BinaryWriter
