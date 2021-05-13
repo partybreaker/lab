@@ -55,7 +55,8 @@ namespace ConsoleApp
 
             return result;
         }
-        public static Patient operator *(Patient f, Patient s)
+        public static Patient operator *(Patient f, Patient s) 
+         // Должен принять два экземпляра класса
         {
             Patient result = new Patient(s.Name, f.MiddleName, s.LastName);
             result.CardNumber = f.CardNumber;
