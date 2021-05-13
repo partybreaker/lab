@@ -17,7 +17,7 @@ namespace StreamExample
              * Документация BinaryWriter - https://docs.microsoft.com/en-us/dotnet/api/system.io.binarywriter?view=net-5.0
              * Подобное действие производим над бинарными файлами используя BinaryWriter
              * BinaryWriter binaryW = new BinaryWriter(file);
-             * binaryW(exmaple.GetSomeValue(20, 1, 30, 50);
+             * binaryW(example.GetSomeValue(20, 1, 30, 50);
              */
             StreamWriter write = new StreamWriter(file); // Инициализируем StreamWriter https://docs.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-5.0
             write.WriteLine(example.GetSomeValue(20, 1, 30, 40)); // Передаем значения
