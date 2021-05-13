@@ -1,0 +1,6 @@
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/obj/Debug/StreamExample.csprojAssemblyReference.cache
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/obj/Debug/StreamExample.csproj.CoreCompileInputs.cache
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/bin/Debug/StreamExample.exe
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/bin/Debug/StreamExample.pdb
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/obj/Debug/StreamExample.exe
+/home/partybreaker/RiderProjects/StreamExample/StreamExample/obj/Debug/StreamExample.pdb
