@@ -1,3 +1,5 @@
+using System;
+
 namespace StreamExample
 {
     public class Example
