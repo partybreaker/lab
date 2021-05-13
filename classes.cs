@@ -68,30 +68,26 @@ namespace ConsoleApp
     class Program
     {
         static void Main(string[] agrs){
-            Patient[] patients = new Patient[6]; // Создаем массив из 6-ти пациентов
+            Patient[] patients = new Patient[7]; // Создаем массив из 6-ти пациентов
             patients[0] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 0)
             {
-                Diagnosis = "Язва", CardNumber = 1
+                Diagnosis = "Язва", CardNumber = "1"
             };
             patients[1] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 1)
             {
-                Diagnosis = "Язва", CardNumber = 2
+                Diagnosis = "Язва", CardNumber = "2"
             };
             patients[2] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 2)
             {
-                Diagnosis = "Язва", CardNumber = 3
+                Diagnosis = "Язва", CardNumber = "3"
             };
             patients[3] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 3)
             {
-                Diagnosis = "Язва", CardNumber = 4
+                Diagnosis = "Язва", CardNumber = "4"
             };
             patients[4] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 4)
             {
-                Diagnosis = "Язва", CardNumber = 5
-            };
-            patients[6] = new Patient("Иванов", "Василий", "Пупкин") // Пациент который будет в нащем списке первым (об этом свидетельствует индекс 5)
-            {
-                Diagnosis = "Язва", CardNumber = 6
+                Diagnosis = "Язва", CardNumber = "5"
             };
             Console.WriteLine("Список пациентов: ");
             foreach (Patient patient in patients) // Перебор нашего списка пациентов
