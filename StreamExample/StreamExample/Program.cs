@@ -8,7 +8,7 @@ namespace StreamExample
         public static void Main(string[] args)
         {
             string [] array;
-            Example example = new Example(); // Инициализация жкхемпляра класса
+            Example example = new Example(); // Инициализация экземпляра класса
             FileStream file = new FileStream("test.txt", FileMode.Create); // Инициализируем FileStream и создаем и указываем имя файла
             /*
              * Подобное действие производим над бинарными файлами используя BinaryWritter
